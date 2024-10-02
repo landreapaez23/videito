@@ -20,3 +20,8 @@ boton= tkinter.Button(cuadro1, text= "Compra", command= comprar)
 boton.pack()
 
 ventana.mainloop()
+print ("haga la ventana pues")
+def convertirTextoMayus(texto):
+    print(texto.upper())
+
+convertirTextoMayus("haga la ventana yaaa")
